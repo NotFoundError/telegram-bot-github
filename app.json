@@ -1,8 +1,29 @@
 {
-  "name": "gitbot",
-  "description": "a really cool app",
+  "name": "telegram-bot-github",
   "version": "1.0.0",
-  "engines": {
-    "yarn": "1.x"
+  "description": "Allows to you receive GitHub notifications right in the Telegram",
+  "author": "Eugene Obrezkov <ghaiklor@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/anandpskerala/telegram-bot-github#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghaiklor/telegram-bot-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ghaiklor/telegram-bot-github/issues"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.16.4",
+    "moment": "2.24.0",
+    "mongoose": "5.5.12",
+    "node-telegram-bot-api": "0.30.0",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.7",
+    "require-all": "3.0.0",
+    "winston": "3.2.1"
   }
 }
