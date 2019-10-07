@@ -6,6 +6,7 @@ _Though, it works fine as described in README._
 Telegram bot that notifies you when you get new notification on GitHub.
 
 You can add this bot to your contact list [here](http://telegram.me/GitHubNotificationsBot).
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## License
 
